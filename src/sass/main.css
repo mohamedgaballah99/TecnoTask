@@ -1,0 +1,58 @@
+.btn-orange {
+  background-color: #293462;
+  color: white;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  border: 1px solid #f89113;
+}
+
+.btn-orange:hover {
+  border: 1px solid #293462;
+  background-color: #f89113;
+  color: white;
+}
+
+.btn-border-orange {
+  background-color: #f89113;
+  color: white;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  border: 1px solid #293462;
+}
+
+.btn-border-orange:hover {
+  border: 1px solid #f89113;
+  background-color: #293462;
+  color: white;
+}
+
+@-webkit-keyframes up {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@keyframes up {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+/*# sourceMappingURL=main.css.map */

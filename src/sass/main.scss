@@ -1,0 +1,38 @@
+
+$pricolor:#293462;
+$seccolor:#f89113;
+.btn-orange{
+    background-color: $pricolor;
+    color: white;
+    transition: 0.5s ease-in-out;
+    border: 1px solid $seccolor;
+    &:hover{
+        border: 1px solid $pricolor;    
+    background-color: $seccolor;
+    color: white;
+    
+    }
+}
+.btn-border-orange{
+    background-color: $seccolor;
+    color: white;
+    transition: 0.5s ease-in-out;
+    border: 1px solid $pricolor;
+    &:hover{
+        border: 1px solid $seccolor;    
+    background-color: $pricolor;
+    color: white;
+    
+    }
+}
+@keyframes up{
+    0%{
+      transform: scale(0.9);
+    } 
+    50%{
+      transform: scale(1);
+    }
+     100%{
+      transform: scale(0.9);
+    }
+  }
